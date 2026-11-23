@@ -5,6 +5,7 @@
   const menuButton = document.querySelector(".menu-toggle");
   const nav = document.querySelector("#primary-nav");
   document.querySelector("#year").textContent = new Date().getFullYear();
+  let revealObserver;
 
   const esc = (value = "") => String(value).replace(/[&<>"']/g, (ch) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
   const renderProjects = (filter = "all") => {
@@ -49,7 +50,6 @@
     }), { rootMargin: "-35% 0px -55% 0px" });
     sections.forEach(section => navObserver.observe(section));
   }
-  let revealObserver;
   function observeReveals() {
     const items = document.querySelectorAll(".reveal:not(.is-visible)");
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) {
