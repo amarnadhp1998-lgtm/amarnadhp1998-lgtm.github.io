@@ -18,7 +18,7 @@ Then open `http://localhost:8000` from this directory.
 - `index.html` contains profile, experience, capabilities, learning and contact details.
 - `assets/css/styles.css` contains the visual system and responsive layouts.
 - Replace the marked portrait placeholder block in `index.html` with an original professional portrait once available. No generated face or stock image is used.
-- Update the LinkedIn placeholder in `index.html` when the profile URL is confirmed.
+- The confirmed LinkedIn profile is linked in the page header, contact section and structured metadata.
 - Replace `assets/Amarnadh_P_Resume.pdf` with a newer public-safe resume when needed.
 
 ## Verified project states
