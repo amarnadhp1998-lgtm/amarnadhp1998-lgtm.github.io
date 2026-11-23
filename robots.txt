@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://amarnadhp1998-lgtm.github.io/sitemap.xml
