@@ -23,7 +23,7 @@ Then open `http://localhost:8000` from this directory.
 
 ## Verified project states
 
-- **Production fixture readiness** and **design/DFM exposure** are generalized professional case studies. No customer, machine, internal image, drawing, schematic or production procedure is disclosed.
+- Academic and independent projects appear before generalized professional experience. The public resume and portfolio omit company-specific production counts, qualification rankings and training details. No customer, machine, internal image, drawing, schematic or production procedure is disclosed.
 - **TypeFlow AI** is described as a local Windows prototype. No public source repository was verified.
 - **Telegram Imposter**, **Gold Intelligence** and **TUM.me** link to public repositories. Gold Intelligence is labeled as a phase-one interface slice; TUM.me's demo limitations are disclosed.
 - The HRMS widget extension was not included because no verified project files or public repository details were available.
